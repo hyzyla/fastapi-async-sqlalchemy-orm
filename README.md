@@ -8,5 +8,6 @@
 
 ## Run
 ```shell
-
+poetry install
+poetry run uvicorn app.main:app
 ```

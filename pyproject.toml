@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Yevhenii Hyzyla <hyzyla@gmail.com>"]
 readme = "README.md"
-packages = [{include = "fastapi_snippet"}]
+packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
