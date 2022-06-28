@@ -28,7 +28,8 @@ async def create_todo():
     todo = models.Todo()
     db.session.add(todo)
 
-     # new session will be created automatically here
+    # new session will be created automatically here
+    # and will be removed automatically by SQLAlchemyMiddleware
     await db.session.commit()
 ```
 
