@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-snippet"
+version = "0.1.0"
+description = ""
+authors = ["Yevhenii Hyzyla <hyzyla@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_snippet"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.78.0"
+uvicorn = "^0.18.2"
+SQLAlchemy = {extras = ["asyncio"], version = "^1.4.39"}
+greenlet = "^1.1.2"
+aiosqlite = "^0.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
