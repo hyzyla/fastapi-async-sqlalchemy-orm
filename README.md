@@ -1,4 +1,4 @@
-# FastAPI + async SQLAlchemy ORM example
+# FastAPI + async SQLAlchemy ORM + async_scoped_session example
 
 ## Features:
 * Async FastAPI
